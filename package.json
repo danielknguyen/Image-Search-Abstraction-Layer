@@ -1,0 +1,36 @@
+{
+  "name": "image-search-abstraction-layer",
+  "version": "1.0.0",
+  "description": "Full Stack Javascript Application that allows you to search for images.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielknguyen/Image-Search-Abstraction-Layer.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "Node.js",
+    "Express.js",
+    "Javascript",
+    "JQUERY"
+  ],
+  "author": "Daniel Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielknguyen/Image-Search-Abstraction-Layer/issues"
+  },
+  "homepage": "https://github.com/danielknguyen/Image-Search-Abstraction-Layer#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.2",
+    "consolidate": "^0.15.0",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "nunjucks": "^3.0.1"
+  }
+}

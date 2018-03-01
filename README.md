@@ -4,9 +4,9 @@ Full Stack Javascript Application that allows you to search for images.
 <br>
 <h3>User Stories:</h3>
 <ul>
-  <li> Users can get the image URLs, alt text and page urls for a set of images relating to a given search string.<li>
-  <li>Users can paginate through the responses by adding a ?offset=2 parameter to the URL.<li>
-  <li>Users can get a list of the most recently submitted search strings.<li>
+  <li> Users can get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>
+  <li>Users can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+  <li>Users can get a list of the most recently submitted search strings.</li>
 </ul>
 <br>
 <p>Here is the example <a href="https://warm-fortress-88419.herokuapp.com/">application</a>.</p>

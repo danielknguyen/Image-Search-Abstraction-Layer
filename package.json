@@ -31,6 +31,9 @@
     "consolidate": "^0.15.0",
     "dotenv": "^5.0.0",
     "express": "^4.16.2",
-    "nunjucks": "^3.0.1"
+    "google-search": "0.0.5",
+    "mongoose": "^5.0.7",
+    "nunjucks": "^3.0.1",
+    "util": "^0.10.3"
   }
 }

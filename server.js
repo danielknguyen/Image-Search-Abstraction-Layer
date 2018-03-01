@@ -7,9 +7,7 @@ var express = require('express'),
     // require bodyParser to analyze endpoint streamdata and display as JSON
     bodyParser = require('body-parser'),
     // template engine to display static pages
-    engines = require('consolidate'),
-    // module to handle errors
-    assert = require('assert');
+    engines = require('consolidate');
 
 // setup and immediately invoke app configuration
 var appConfig = function(app) {

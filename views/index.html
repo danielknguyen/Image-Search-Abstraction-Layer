@@ -5,5 +5,18 @@
 {% endblock %}
 
 {% block content %}
+  <h1>Free Code Camp Image Search Abstraction Layer</h1>
+  <h3>User Stories:</h3>
+  <ol>
+   <li>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>
+   <li>I can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+   <li> I can get a list of the most recently submitted search strings.</li>
+  </ol>
+  <h3>Example creation usage:</h3>
+  <p>get image URL: https://warm-fortress-88419.herokuapp.com/api/imagesearch/dogs?offset=1</p>
+  <p>get list of searches: https://warm-fortress-88419.herokuapp.com/api/latest/imagesearch/</p>
+  <h3>Example creation output:</h3>
+  <p>[{"url":"https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/mammals/d/domestic-dog_thumb.jpg","snippet":"Dog | National Geographic","thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkCyD5du6kdolBNMT6GM75O-7fdJWTIB4osAPuo8Iu-XmjY4Ia0EFVkdWi","context":"https://www.nationalgeographic.com/animals/mammals/d/domestic-dog/"}]</p>
+  <p>[{"when":"2018-03-01T00:23:55.338Z","term":"dogs"}]</p>
 
 {% endblock %}

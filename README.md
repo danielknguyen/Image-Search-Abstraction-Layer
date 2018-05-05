@@ -9,4 +9,4 @@ Full Stack Javascript Application that allows you to search for images.
   <li>Users can get a list of the most recently submitted search strings.</li>
 </ul>
 <br>
-<p>Here is the example <a href="https://warm-fortress-88419.herokuapp.com/">application</a>.</p>
+<p>Application deprecated, must add personal database credentials to make app functional.</p>
